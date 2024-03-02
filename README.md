@@ -2,9 +2,9 @@
 
 ## Interactive Charts
 
-For an interactive experience with the charts, you can view the Jupyter notebook of this project on nbviewer. Click the link below:
+To interactively explore the data with charts, you can view the Jupyter notebook associated with this project on my portfolio website:
 
-[Interactive Jupyter Notebook on nbviewer](https://nbviewer.org/github.com/vytautas-bunevicius/podcasts-reviews.git)
+[Interactive Jupyter Notebook on portfolio website](https://bunevicius.com/project-pages/podcasts.html)
 
 See more visualizations in the Looker dashboard here:
 
@@ -32,7 +32,7 @@ If you wish to run the code locally, follow these steps:
 
 ## Overview
 
-This project involves the analysis of podcast review data using **Python** and **SQLite**. The dataset consists of 2 million reviews for 100,000 podcasts. We will conduct exploratory data analysis (EDA) to uncover insights into podcast popularity, review sentiments, category trends, and more. The analysis will utilize Python libraries such as **pandas**, **matplotlib**, and **plotly** for data manipulation and visualization.
+This project involves the analysis of podcast review data using **Python** and **SQLite**. The dataset consists of 2 million reviews for 100,000 podcasts. We will conduct exploratory data analysis (EDA) to uncover insights into podcast popularity, review sentiments, category trends, and more. The analysis will utilize Python libraries such as **Pandas**, **Matplotlib**, and **Plotly** for data manipulation and visualization.
 
 ## Research Objectives
 
