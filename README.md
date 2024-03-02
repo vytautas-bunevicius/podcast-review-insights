@@ -60,10 +60,11 @@ b. **Alternative Hypothesis (H1)**: There is a correlation between the length of
 
 ### 1. Podcast Popularity and Ratings
 - The number of reviews tends to positively correlate with the average rating of a podcast, indicating higher popularity for podcasts with more reviews.
-- Longer reviews generally tend to have slightly higher ratings, although the correlation is weak.
+- Longer reviews tended to have slightly lower ratings, though the link was not strong.
 
 ### 2. Review Sentiment Analysis
-- Positive sentiments such as 'love', 'great', and 'enjoy' are commonly found in positive reviews, while negative sentiments like 'not like' and 'disappointed' are prevalent in negative reviews.
+- In Negative Reviews, the most frequent words include `podcast`, `like`, `listen`, `show`, `one`, `it’s`, `listening`, `episode`, `get`, and `i’m`. These words, while not inherently negative, often appear in contexts expressing dissatisfaction (e.g., “I don’t get why…”).
+- In contrast, Positive Reviews often include words like `podcast`, `love`, `great`, `listen`, `like`, `show`, `listening`, `one`, `really`, and `episode`. Words like `love` and `great` are typically associated with positive sentiments, suggesting enjoyment or appreciation of the podcast.
 
 ### 3. Category Trends
 - The 'Society-Culture' category appears to have the highest number of reviews and generally positive ratings.
