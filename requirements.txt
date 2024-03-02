@@ -1,0 +1,11 @@
+fasttext
+numpy
+pandas
+statsmodels
+scipy
+plotly
+textblob
+wordcloud
+matplotlib
+nltk
+sqlite3
