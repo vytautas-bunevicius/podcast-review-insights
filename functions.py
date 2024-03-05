@@ -523,3 +523,32 @@ def plot_monthly_reviews_and_ratings(df: pd.DataFrame, x_col: str, bar_y_col: st
     fig.update_yaxes(title_text=line_label, secondary_y=True)
 
     fig.show()
+    
+def create_box_plot(df: pd.DataFrame, x_col: str, y_col: str, title: str, x_label: str, y_label: str, color: str) -> None:
+    """
+    Create a box plot using the given dataframe and column names.
+
+    Parameters:
+    df (pandas.DataFrame): The dataframe containing the data.
+    x_col (str): The column name for the x-axis.
+    y_col (str): The column name for the y-axis.
+    title (str): The title of the plot.
+    x_label (str): The label for the x-axis.
+    y_label (str): The label for the y-axis.
+    color (str): The color of the markers.
+
+    Returns:
+    None
+    """
+    fig = px.box(df, x=x_col, y=y_col)
+    fig.update_layout(
+        title={
+            'text': title,
+            'x': 0.5,
+            'xanchor': 'center'
+        },
+        xaxis_title=x_label,
+        yaxis_title=y_label
+    )
+    fig.update_traces(marker_color=color)
+    fig.show()

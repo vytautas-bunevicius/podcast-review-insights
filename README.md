@@ -60,7 +60,7 @@ b. **Alternative Hypothesis (H1)**: There is a correlation between the length of
 
 ### 1. Podcast Popularity and Ratings
 - The number of reviews tends to positively correlate with the average rating of a podcast, indicating higher popularity for podcasts with more reviews.
-- Longer reviews tended to have slightly lower ratings, though the link was not strong.
+- An ANOVA test was conducted to investigate the association between the length of a review and the rating it receives. The p-value obtained was significantly less than 0.05, leading to the rejection of the null hypothesis. This suggests a statistically significant association between review length and rating.
 
 ### 2. Review Sentiment Analysis
 - In Negative Reviews, the most frequent words include `podcast`, `like`, `listen`, `show`, `one`, `it’s`, `listening`, `episode`, `get`, and `i’m`. These words, while not inherently negative, often appear in contexts expressing dissatisfaction (e.g., “I don’t get why…”).
