@@ -14,10 +14,6 @@ See more visualizations in the Looker dashboard here:
 
 If you wish to run the code locally, follow these steps:
 
-- Install the required Python packages using the following command:
-
-      pip install -r requirements.txt
-
 - Clone the Repository
 
       git clone https://github.com/vytautas-bunevicius/podcasts-reviews.git
@@ -25,6 +21,10 @@ If you wish to run the code locally, follow these steps:
 - Navigate to Repository Directory
 
       cd podcasts-reviews
+
+- Install the required Python packages using the following command:
+
+      pip install -r requirements.txt
 
 - Launch Jupyter Notebook
 
