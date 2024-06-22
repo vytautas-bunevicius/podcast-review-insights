@@ -16,11 +16,11 @@ If you wish to run the code locally, follow these steps:
 
 - Clone the Repository
 
-      git clone https://github.com/vytautas-bunevicius/podcasts-reviews.git
+      git clone https://github.com/vytautas-bunevicius/podcast-review-insights.git
 
 - Navigate to Repository Directory
 
-      cd podcasts-reviews
+      cd podcast-review-insights
 
 - Install the required Python packages using the following command:
 
